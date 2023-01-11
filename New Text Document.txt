@@ -48,3 +48,11 @@ https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js
           }
         }
 </script>
+
+
+$alert = ['success', 'Item saved successfully'];
+return back()->withAlert($alert);
+
+
+$alert = ['danger', 'Item not found'];
+return back()->withAlert($alert);
